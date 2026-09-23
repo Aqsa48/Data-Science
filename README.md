@@ -1,6 +1,6 @@
 # Data Science Material Repository
 
-A comprehensive collection of Data Science learning materials covering Python fundamentals, data manipulation, visualization, statistics, and machine learning.
+A collection of runnable Data Science lessons and reference materials covering Python fundamentals, data manipulation, visualization, statistics, and machine learning.
 
 ## 📚 Table of Contents
 
@@ -12,20 +12,25 @@ A comprehensive collection of Data Science learning materials covering Python fu
 | 4 | [Matplotlib](./4_Matplotlib/) | Line plots, bar charts, scatter plots, histograms, and customization |
 | 5 | [Statistics](./5_Statistics/) | Descriptive stats, probability, distributions, and hypothesis testing |
 | 6 | [Machine Learning](./6_Machine_Learning/) | Regression, classification, clustering, and model evaluation |
+| 7 | [Books and reference data](./Books/) | PDF references, a CSV dataset, and notes |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn scipy jupyter
+pip install numpy pandas matplotlib scikit-learn scipy
 ```
 
 ### Running the scripts
 
 ```bash
 python 1_Python_Basics/python_basics.py
+python 3_Pandas/pandas_basics.py
+python 6_Machine_Learning/machine_learning_basics.py
 ```
+
+Run `python 4_Matplotlib/matplotlib_basics.py` to save example PNG charts in the current directory. The `Books/` folder contains reference PDFs and a sample CSV; the lesson scripts generate their own sample data and do not require those files.
 
 ## 🛠️ Tools & Libraries
 
@@ -52,6 +57,10 @@ Data-Science/
 │   └── statistics_basics.py
 ├── 6_Machine_Learning/
 │   └── machine_learning_basics.py
+├── Books/
+│   ├── readme.md
+│   ├── *.pdf
+│   └── smap_NIVOLET.csv
 └── README.md
 ```
 

@@ -9,9 +9,9 @@ Note: Figures are saved as PNG files (no interactive display needed).
 
 import numpy as np
 import matplotlib
-import matplotlib.pyplot as plt
 
 matplotlib.use("Agg")  # non-interactive backend for script execution
+import matplotlib.pyplot as plt
 
 # ---------------------------------------------------------
 # Helper: save figure and report
